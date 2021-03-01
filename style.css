@@ -47,6 +47,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 100%);
+mix-blend-mode: normal;
 
 }
 .sn-list {
@@ -120,14 +122,10 @@ strong {
     padding-top: 40px;
     
 }
-.monitor::before {
-    content: url('../images/logo-mastercraft.svg');
-    position: absolute;
-    background-position: center center;
-    top: -30px;
-    left:46%;
-
-
+.logo{
+  position: absolute;
+  top: -12%;
+  right: 45%;
 }
 .project {
     padding: 18px 41px;
@@ -143,27 +141,29 @@ strong {
     background-color:#147A73;
 }
 .bookmark-btn {
-    padding: 19px 20px 20px 72px;
+    padding: 19px 25px 20px 72px;
     margin-left: 200px;
     margin-right: 48px;
     border: 3px solid white;
-    background-color: #979797;
+    background-color: rgba(226, 226, 228, 0.918);
     border-radius: 33.5px;
+    
 
 }
 .bookmark-btn:hover{
     cursor: pointer;
-    color: white;
-
-
+    color: #7A7A7A;
+    background-color: rgba(226, 226, 228, 0.918);
 }
 .bookmark-btn::before {
-    content: url('../images/icon-bookmark.svg');
+    content: "";
+    background-image: url("../images/icon-bookmark.svg");
+    width: 56px;
+    height: 56px;
     position: absolute;
-    left: 66%;
-    bottom: 15%;
-}
-
+    top: 63%;
+    right: 26%;
+  }
 .sec-card ul {
     padding-top: 48px;
     display: flex;
