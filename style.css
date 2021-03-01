@@ -154,6 +154,7 @@ strong {
     cursor: pointer;
     color: #7A7A7A;
     background-color: rgba(226, 226, 228, 0.918);
+    opacity: 0.7;
 }
 .bookmark-btn::before {
     content: "";
